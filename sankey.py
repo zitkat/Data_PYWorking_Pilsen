@@ -81,9 +81,7 @@ def sankey(left_data, right_data, colorDict={},
     # Determine positions of left and right label patches and total widths
     widths = defaultdict()
     for i, l in enumerate(allLabels):
-        myD = {}
-        myD['left'] = len(df[df.before == l])
-        myD['right'] = len(df[df.after == l])
+        myD = {'left': len(df[df.before == l]), 'right': len(df[df.after == l])}
         myD['total'] = max(myD['left'], myD['right'])
         if i == 0:
             myD['bottom'] = 0
