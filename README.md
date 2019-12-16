@@ -1,4 +1,6 @@
-# Data_PYWorking_Pilsen
-Repository with materials for Jupyter and Pandas PyWorking in Pilsen originaly on 17.2.2019
+# Data PyWorking Pilsen
+Repository with materials for Jupyter and Pandas PyWorking by Pilsen PyLadies (first held on 17.2.2019)
+
+The `commented` notebooks contain comments for coaches and self-study.
 
 These materials are based on https://github.com/frenzymadness/Data_analysis_workshop.
